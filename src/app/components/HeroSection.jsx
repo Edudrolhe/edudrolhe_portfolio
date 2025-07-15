@@ -43,9 +43,19 @@ const HeroSection = () => {
               Sobre mim
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-500 via-blue-500 hover:bg-slate-800 text-white mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
+              <div>
+                <a href="https://wa.me/5511971604273?text=Olá Mundo!
+
+                Seu negócio merece um design impactante e um software que funcione perfeitamente – 
+                e é exatamente isso que entregamos!" target="_blank">
+                  <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                    Download CV
+                  </span>
+
+                </a>
+
+              </div>
+
             </button>
           </div>
         </div>
