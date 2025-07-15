@@ -9,15 +9,14 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left justify-self-start">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-b from-red-500 via-blue-500">
-              Hello, I'm{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-br from-red-500 via-blue-500">
+              Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
                 "Eduardo",
-                2000, // wait 1s before replacing "Mice" with "Hamsters"
+                2000,
                 "Designer",
                 2000,
                 "Developer",
@@ -44,18 +43,16 @@ const HeroSection = () => {
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-500 via-blue-500 hover:bg-slate-800 text-white mt-3">
               <div>
-                <a href="https://wa.me/5511971604273?text=Olá Mundo!
-
-                Seu negócio merece um design impactante e um software que funcione perfeitamente – 
-                e é exatamente isso que entregamos!" target="_blank">
+                <a 
+                  href="https://wa.me/5511971604273?text=Olá Mundo!%0A%0ASeu negócio merece um design impactante e um software que funcione perfeitamente –%0Ae é exatamente isso que entregamos!" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                     Download CV
                   </span>
-
                 </a>
-
               </div>
-
             </button>
           </div>
         </div>
