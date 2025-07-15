@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left justify-self-start">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-red-500 via-blue-500 to-purple-600">
-              {"Hello, I&apos;m "}
+              {"Hello World! "}
             </span>
             <br />
             <TypeAnimation
