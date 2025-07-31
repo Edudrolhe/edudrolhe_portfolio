@@ -7,8 +7,8 @@ import ProjectTag from "./ProjectTag";
 const projectsData = [
   {
     id: 1,
-    title: "React Eduardo Drolhe",
-    description: "Portfolio Website feito com React.js",
+    title: "Portfolio Next.js ",
+    description: "Portfolio Website feito com Next.js e suas tecnologias",
     image: "/images/projects/1.png",
     tag: ["All", "Developer"],
     gitUrl: "/",
