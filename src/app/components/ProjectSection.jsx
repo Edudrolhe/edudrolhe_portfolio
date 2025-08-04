@@ -17,8 +17,8 @@ const projectsData = [
 
   {
     id: 2,
-    title: "Portfolio Website Photografia",
-    description: "Portfolio Website feito com React.js",
+    title: "Projeto Barbearia",
+    description: "Website para agendamento de horário em uma barbearia",
     image: "/images/projects/2.png",
     tag: ["All", "Developer"],
     gitUrl: "/",
@@ -27,8 +27,8 @@ const projectsData = [
 
   {
     id: 3,
-    title: "E-Commerce Website",
-    description: "Portfolio Website feito com React.js",
+    title: "Projeto E-Commerce",
+    description: "Website para E-Commerce",
     image: "/images/projects/3.png",
     tag: ["All", "Developer"],
     gitUrl: "/",
@@ -38,7 +38,7 @@ const projectsData = [
   {
     id: 4,
     title: "Pizzaria Website",
-    description: "Portfolio Website feito com React.js",
+    description: "Website feito para agendamento de pedido de pizza",
     image: "/images/projects/4.png",
     tag: ["All", "Developer"],
     gitUrl: "/",
